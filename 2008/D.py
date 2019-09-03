@@ -3,6 +3,7 @@ import math
 movimentos = 2
 
 while True:
+    movimentos = 2
     x1 = input()
     y1 = input()
     x2 = input()
