@@ -6,8 +6,9 @@ public class D {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int x1, x2, y1, y2, result = 2, maiorX, maiorY;
+		int x1, x2, y1, y2, result = 2;
 		while(true) {
+			result = 2;
 			//casa de começo
 			x1 = sc.nextInt();
 			y1 = sc.nextInt();
