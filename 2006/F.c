@@ -2,10 +2,11 @@
 #include<stdlib.h>
 
 int main(){
-    int numeroParticipantes, partidasJogadas, pontuacao, cont=0;
+    int numeroParticipantes, partidasJogadas, pontuacao, cont;
     char times[20];
     
     while(1){
+      cont = 0;
       scanf("%i", &numeroParticipantes);
       scanf("%i", &partidasJogadas);
       if(numeroParticipantes == 0 && partidasJogadas == 0){
