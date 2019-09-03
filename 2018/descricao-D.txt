@@ -1,0 +1,44 @@
+Problema D
+Desvendando Monty Hall
+No palco de um programa de audit´orio h´a trˆes portas fechadas: porta 1, porta 2 e porta 3. Atr´as de
+uma dessas portas h´a um carro, atr´as de cada uma das outras duas portas h´a um bode. A produ¸c˜ao do
+programa sorteia aleatoriamente a porta onde vai estar o carro, sem trapa¸ca. Somente o apresentador
+do programa sabe onde est´a o carro. Ele pede para o jogador escolher uma das portas. Veja que agora,
+como s´o h´a um carro, atr´as de pelo menos uma entre as duas portas que o jogador n˜ao escolheu, tem
+que haver um bode!
+Portanto, o apresentador sempre pode fazer o seguinte: entre as duas portas que o jogador n˜ao
+escolheu, ele abre uma que tenha um bode, de modo que o jogador e os espectadores possam ver o
+bode. O apresentador, agora, pergunta ao jogador: “vocˆe quer trocar sua porta pela outra porta que
+ainda est´a fechada?”. E vantajoso trocar ou n˜ao? O jogador quer ficar com a porta que tem o carro, ´
+claro!
+Paulinho viu uma demonstra¸c˜ao rigorosa de que a probabilidade de o carro estar atr´as da porta
+que o jogador escolheu inicialmente ´e 1/3 e a probabilidade de o carro estar atr´as da outra porta, que
+ainda est´a fechada e que o jogador n˜ao escolheu inicialmente, ´e 2/3 e, portanto, a troca ´e vantajosa.
+Paulinho n˜ao se conforma, sua intui¸c˜ao lhe diz que tanto faz, que a probabilidade ´e 1/2 para ambas
+as portas ainda fechadas...
+Neste problema, para acabar com a d´uvida do Paulinho, vamos simular esse jogo milhares de vezes
+e contar quantas vezes o jogador ganhou o carro. Vamos supor que:
+• O jogador sempre escolhe inicialmente a porta 1;
+• O jogador sempre troca de porta, depois que o apresentador revela um bode abrindo uma das
+duas portas que n˜ao foram escolhidas inicialmente.
+Nessas condi¸c˜oes, em um jogo, dado o n´umero da porta que cont´em o carro, veja que podemos
+saber exatamente se o jogador vai ganhar ou n˜ao o carro.
+Entrada
+A primeira linha da entrada cont´em um inteiro N (1 = N = 104
+), indicando o n´umero de jogos na
+simula¸c˜ao. Cada uma das N linhas seguintes cont´em um inteiro: 1, 2 ou 3; representando o n´umero
+da porta que cont´em o carro naquele jogo.
+Sa´ida
+Seu programa deve produzir uma ´unica linha, contendo um inteiro representando o n´umero de
+vezes que o jogador ganhou o carro nessa simula¸c˜ao, supondo que ele sempre escolhe inicialmente a
+porta 1 e sempre troca de porta depois que o apresentador revela um bode abrindo uma das duas
+portas que n˜ao foram escolhidas inicialmente.
+Exemplo de entrada 1
+5
+1
+3
+2
+2
+1
+Exemplo de sa´ida 1
+3

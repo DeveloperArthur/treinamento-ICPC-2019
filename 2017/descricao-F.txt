@@ -1,0 +1,42 @@
+Problema F
+Fase
+Em diversas competi¸c˜oes acadˆemicas, como a Olimp´iada Brasileira de Inform´atica (OBI), uma certa
+quantidade de competidores se classifica de uma fase para a fase seguinte, garantindo uma das vagas
+dispon´iveis. Entretanto, normalmente essa quantidade ´e vari´avel, pois dada uma certa quantidade
+m´inima de classificados, ´e frequente que haja empate na ´ultima vaga de classifica¸c˜ao. Neste caso, ´e
+comum que todos os competidores empatados na ´ultima coloca¸c˜ao se classifiquem.
+Sua tarefa ´e ajuda a calcular o n´umero de competidores classificados para a pr´oxima fase. Vocˆe
+receber´a uma lista de pontua¸c˜oes obtidas pelos competidores e o n´umero m´inimo de vagas para a fase
+seguinte e vocˆe deve decidir quantos competidores de fato v˜ao se classificar.
+Entrada
+A primeira linha da entrada cont´em um n´umero inteiro N, 1 = N = 1000, representando o n´umero
+de competidores. A segunda linha conter´a um inteiro K, 1 = K = N, indicando o n´umero m´inimo de
+competidores que devem se classificar para a pr´oxima fase. Em seguida, N linhas conter˜ao, cada uma
+um n´umero entre 1 e 1000, inclusive, correspondente `a pontua¸c˜ao de um competidor.
+Sa´ida
+Seu programa deve imprimir uma linha, contendo o n´umero de classificados para a pr´oxima fase.
+Exemplo de entrada 1
+10
+3
+1
+2
+3
+4
+5
+5
+4
+3
+2
+1
+Exemplo de sa´ida 1
+4
+Exemplo de entrada 2
+5
+2
+500
+500
+500
+500
+500
+Exemplo de sa´ida 2
+5

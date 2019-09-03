@@ -1,0 +1,37 @@
+Problema M
+M´aquina de caf´e
+O novo pr´edio da Sociedade Brasileira de Computa¸c˜ao (SBC) possui 3 andares. Em determinadas
+´epocas do ano, os funcion´arios da SBC bebem muito caf´e. Por conta disso, a presidˆencia da SBC decidiu
+presentear os funcion´arios com uma nova m´aquina de expresso. Esta m´aquina deve ser instalada em
+um dos 3 andares, mas a instala¸c˜ao deve ser feita de forma que as pessoas n˜ao percam muito tempo
+subindo e descendo escadas.
+Cada funcion´ario da SBC bebe 1 caf´e expresso por dia. Ele precisa ir do andar onde trabalha at´e
+o andar onde est´a a m´aquina e voltar para seu posto de trabalho. Todo funcion´ario leva 1 minuto
+para subir ou descer um andar. Como a SBC se importa muito com a eficiˆencia, ela quer posicionar
+a m´aquina de forma a minimizar o tempo total gasto subindo e descendo escadas.
+Sua tarefa ´e ajudar a diretoria a posicionar a m´aquina de forma a minimizar o tempo total gasto
+pelos funcion´arios subindo e descendo escadas.
+Entrada
+A entrada consiste em 3 n´umeros, A1, A2, A3 (0 = A1, A2, A3 = 1000), um por linha, onde Ai
+representa o n´umero de pessoas que trabalham no i-´esimo andar.
+Sa´ida
+Seu programa deve imprimir uma ´unica linha, contendo o n´umero total de minutos a serem gastos
+com o melhor posicionamento poss´ivel da m´aquina.
+Exemplo de entrada 1
+10
+20
+30
+Exemplo de sa´ida 1
+80
+Exemplo de entrada 2
+10
+30
+20
+Exemplo de sa´ida 2
+60
+Exemplo de entrada 3
+30
+10
+20
+Exemplo de sa´ida 3
+100
