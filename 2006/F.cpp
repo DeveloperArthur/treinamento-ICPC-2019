@@ -6,16 +6,22 @@ int main(){
     int numeroParticipante, partidasJogadas, pontuacao, cont=0;
     string times;
     
-    cin >> numeroParticipante;
-    cin >> partidasJogadas;
-    
-    for(int i=0; i<numeroParticipante; i++){
-        cin >> times;
-        cin >> pontuacao;
-        if(pontuacao == 1){
-            cont++;
+    while(true){
+        cin >> numeroParticipante;
+        cin >> partidasJogadas;
+        
+        if(numeroParticipante == 0 && partidasJogadas == 0){
+            break;
         }
+        
+        for(int i=0; i<numeroParticipante; i++){
+            cin >> times;
+            cin >> pontuacao;
+            if(pontuacao == 1){
+                cont++;
+            }
+        }
+        cout << cont << endl;    
     }
-    cout << cont << endl;
     return 0;
 }
