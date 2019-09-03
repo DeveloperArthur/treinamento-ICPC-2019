@@ -1,0 +1,54 @@
+Problema H
+huaauhahhuahau
+Em chats, ´e muito comum entre jovens e adolescentes utilizar sequˆencias de letras, que parecem muitas
+vezes aleat´orias, para representar risadas. Alguns exemplos comuns s˜ao:
+huaauhahhuahau
+hehehehe
+ahahahaha
+jaisjjkasjksjjskjakijs
+huehuehue
+Cl´audia ´e uma jovem programadora que ficou intrigada pela sonoridade das “risadas digitais”.
+Algumas delas ela nem mesmo consegue pronunciar! Mas ela percebeu que algumas delas parecem
+transmitir melhor o sentimento da risada que outras. A primeira coisa que ela percebeu ´e que as
+consoantes n˜ao interferem no quanto as risadas digitais influenciam na transmiss˜ao do sentimento.
+A segunda coisa que ela percebeu ´e que as risadas digitais mais engra¸cadas s˜ao aquelas em que
+as sequˆencias de vogais s˜ao iguais quando lidas na ordem natural (da esquerda para a direita) ou
+na ordem inversa (da direita para a esquerda), ignorando as consoantes. Por exemplo, “hahaha” e
+“huaauhahhuahau” est˜ao entre as risadas mais engra¸cadas, enquanto “riajkjdhhihhjak” e “huehuehue”
+n˜ao est˜ao entre as mais engra¸cadas.
+Cl´audia est´a muito atarefada com a an´alise estat´istica das risadas digitais e pediu sua ajuda para
+escrever um programa que determine, para uma risada digital, se ela ´e das mais engra¸cadas ou n˜ao.
+Entrada
+A entrada ´e composta por uma linha, contendo uma sequˆencia de no m´aximo 50 caracteres, formada
+apenas por letras min´usculas sem acentua¸c˜ao. As vogais s˜ao as letras ‘a’,‘e’,‘i’,‘o’,‘u’. A sequˆencia
+cont´em pelo menos uma vogal.
+Sa´ida
+Seu programa deve produzir uma linha contendo um caractere, “S” caso a risada seja das mais
+engra¸cadas, ou “N” caso contr´ario.
+
+Exemplo de entrada 1
+hahaha
+
+Exemplo de sa´ida 1
+S
+
+
+Exemplo de entrada 2
+riajkjdhhihhjak
+
+Exemplo de sa´ida 2
+N
+
+
+Exemplo de entrada 3
+a
+
+Exemplo de sa´ida 3
+S
+
+
+Exemplo de entrada 4
+huaauhahhuahau
+
+Exemplo de sa´ida 4
+S

@@ -1,0 +1,39 @@
+Problema A
+Andando no tempo
+Imagine que vocˆe tenha uma m´aquina do tempo que pode ser usada no m´aximo trˆes vezes, e a cada
+uso da m´aquina vocˆe pode escolher voltar para o passado ou ir para o futuro. A m´aquina possui trˆes
+cr´editos fixos; cada cr´edito representa uma certa quantidade de anos, e pode ser usado para ir essa
+quantidade de anos para o passado ou para o futuro. Vocˆe pode fazer uma, duas ou trˆes viagens, e
+cada um desses trˆes cr´editos pode ser usado uma vez apenas. Por exemplo, se os cr´editos forem 5, 12
+e 9, vocˆe poderia decidir fazer duas viagens: ir 5 anos para o futuro e, depois, voltar 9 anos para o
+passado. Dessa forma, vocˆe terminaria quatro anos no passado, em 2012. Tamb´em poderia fazer trˆes
+viagens, todas indo para o futuro, usando os cr´editos em qualquer ordem, terminando em 2042.
+Neste problema, dados os valores dos trˆes cr´editos da m´aquina, seu programa deve dizer se ´e ou
+n˜ao poss´ivel viajar no tempo e voltar para o presente, fazendo pelo menos uma viagem e, no m´aximo,
+trˆes viagens; sempre usando cada um dos trˆes cr´editos no m´aximo uma vez.
+Entrada
+A entrada consiste de uma linha contendo os valores dos trˆes cr´editos A, B e C (1 ? A, B, C ?
+1000).
+Sa´ida
+Seu programa deve imprimir uma linha contendo o caracter “S” se ´e poss´ivel viajar e voltar para
+o presente, ou “N” caso contr´ario.
+
+Exemplo de entrada 1
+22 5 22
+
+Exemplo de sa´ida 1
+S
+
+
+Exemplo de entrada 2
+31 110 79
+
+Exemplo de sa´ida 2
+S
+
+
+Exemplo de entrada 3
+45 8 7
+
+Exemplo de sa´ida 3
+N

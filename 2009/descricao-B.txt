@@ -1,0 +1,39 @@
+Problema B
+Alarme Despertador
+Nome do arquivo fonte: alarme.c, alarme.cpp ou alarme.java
+Daniela ´e enfermeira em um grande hospital, e tem os hor´arios de trabalho muito vari´aveis.
+Para piorar, ela tem sono pesado, e uma grande dificuldade para acordar com rel´ogios despertadores.
+Recentemente ela ganhou de presente um rel´ogio digital, com alarme com v´arios tons, e
+tem esperan¸ca que isso resolva o seu problema. No entanto, ela anda muito cansada e quer
+aproveitar cada momento de descanso. Por isso, carrega seu rel´ogio digital despertador para
+todos os lugares, e sempre que tem um tempo de descanso procura dormir, programando o
+alarme despertador para a hora em que tem que acordar. No entanto, com tanta ansiedade
+para dormir, acaba tendo dificuldades para adormecer e aproveitar o descanso.
+Um problema que a tem atormentado na hora de dormir ´e saber quantos minutos ela teria
+de sono se adormecesse imediatamente e acordasse somente quando o despertador tocasse. Mas
+ela realmente n˜ao ´e muito boa com n´umeros, e pediu sua ajuda para escrever um programa
+que, dada a hora corrente e a hora do alarme, determine o n´umero de minutos que ela poderia
+dormir.
+Entrada
+A entrada cont´em v´arios casos de teste. Cada caso de teste ´e descrito em uma linha, contendo
+quatro n´umeros inteiros H1, M1, H2 e M2, com H1:M1 representando a hora e minuto atuais,
+e H2:M2 representando a hora e minuto para os quais o alarme despertador foi programado
+(0 = H1 = 23, 0 = M1 = 59, 0 = H2 = 23, 0 = M2 = 59).
+O final da entrada ´e indicado por uma linha que cont´em apenas quatro zeros, separados por
+espa¸cos em branco.
+Os dados devem ser lidos da entrada padr˜ao.
+Sa´ida
+Para cada caso de teste da entrada seu programa deve imprimir uma linha, cada uma contendo
+um n´umero inteiro, indicando o n´umero de minutos que Daniela tem para dormir.
+O resultado de seu programa deve ser escrito na sa´ida padr˜ao.
+
+Exemplo de entrada
+1 5 3 5
+23 59 0 34
+21 33 21 10
+0 0 0 0
+
+Exemplo de sa´ida
+120
+35
+1417

@@ -1,0 +1,44 @@
+Problema F
+Foco
+Nome do arquivo fonte: foco.c, foco.cpp, ou foco.java
+Daniel est´a fazendo um curso de Vis˜ao Computacional e decidiu reproduzir um trabalho
+muito interessante visto em aula: ele tirou v´arias fotos de uma mesma cena, variando apenas
+o foco, para depois combin´a-las em uma ´unica imagem onde todos os objetos da cena est˜ao
+n´itidos simultaneamente. Para tal, ele precisa que cada objeto apare¸ca n´itido em ao menos
+uma foto.
+Daniel sabe que, para cada objeto, existe um intervalo fechado de planos de foco no qual
+aquele objeto fica n´itido. Por exemplo, na figura abaixo, (i), (ii) e (iii) s˜ao trˆes fotos da mesma
+cena, cada uma tirada com um foco diferente; (iv) ´e a imagem combinada gerada por Daniel.
+(i) (ii) (iii) (iv)
+Como o cart˜ao de mem´oria de sua cˆamera ´e pequeno, ele pediu sua ajuda para, dados os
+intervalos de foco de todos os objetos da cena que pretende fotografar, determinar o n´umero
+m´inimo de fotos que ele deve tirar para que seja poss´ivel deixar cada objeto n´itido em pelo
+menos uma foto.
+Entrada
+A entrada ´e composta por diversos casos de teste. A primeira linha de cada caso de teste cont´em
+um inteiro N indicando o n´umero de objetos na cena. Cada uma das N linhas seguintes cont´em
+dois inteiros A e B indicando os extremos do intervalo de foco de cada objeto.
+Sa´ida
+Para cada caso de teste, imprima uma linha contendo um inteiro indicando o menor n´umero
+de fotos que Daniel deve tirar.
+Restri¸c˜oes
+• 1 = N = 106
+• 1 = A = B = 109
+Maratona de Programa¸c˜ao da SBC – ACM ICPC – 2011 12
+Exemplos
+
+Exemplo de entrada
+3
+1 3
+2 5
+4 6
+5
+1 2
+5 6
+3 4
+5 6
+1 2
+Exemplo de sa´ida
+
+2
+3

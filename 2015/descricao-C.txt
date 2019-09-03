@@ -1,0 +1,35 @@
+Problema C
+Tri-du
+Tri-du ´e um jogo de cartas derivado do popular jogo de Truco. O jogo utiliza um baralho normal de
+52 cartas, com treze cartas de cada naipe, mas os naipes s˜ao ignorados. Apenas o valor das cartas,
+considerados como inteiros de 1 a 13, s˜ao utilizados.
+No jogo, cada jogador recebe trˆes cartas. As regras s˜ao simples:
+• Um trio (trˆes cartas de mesmo valor) ganha de uma dupla (duas cartas de mesmo valor).
+• Um trio formado por cartas de maior valor ganha de um trio formado por cartas de menor valor.
+• Uma dupla formada por cartas de maior valor ganha de uma dupla formada por cartas de menor
+valor.
+Note que o jogo pode n˜ao ter ganhador em muitas situa¸c˜oes; nesses casos, as cartas distribu´idas
+s˜ao devolvidas ao baralho, que ´e embaralhado e uma nova partida ´e iniciada.
+Um jogador j´a recebeu duas das cartas que deve receber, e conhece seus valores. Sua tarefa ´e
+escrever um programa para determinar qual o valor da terceira carta que maximiza a probabilidade
+de esse jogador ganhar o jogo.
+Entrada
+A entrada consiste de uma ´unica linha que cont´em dois inteiros, A (1 = A = 13) e B (1 = B = 13)
+indicando os valores das duas primeiras cartas recebidas.
+Sa´ida
+Seu programa deve produzir uma ´unica linha com um inteiro representando o valor da carta que
+maximiza a probabilidade de o jogador ganhar a partida.
+Exemplos
+
+Entrada
+10 7
+
+Sa´ida
+10
+
+
+Entrada
+2 2
+
+Sa´ida
+2

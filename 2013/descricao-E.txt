@@ -1,0 +1,45 @@
+Problema E
+Mergulho
+Arquivo: mergulho.[c|cpp|java]
+O recente terremoto em Nlogˆonia n˜ao chegou a afetar muito as edifica¸c˜oes da capital, principal
+epicentro do abalo. Mas os cientistas detectaram que o principal dique de conten¸c˜ao teve um dano
+significativo na sua parte subterrˆanea que, se n˜ao for consertado rapidamente, pode causar o seu
+desmoronamento, com a consequente inunda¸c˜ao de toda a capital.
+O conserto deve ser feito por mergulhadores, a uma grande profundidade, em condi¸c˜oes extremamente dif´iceis e perigosas. Mas como ´e a sobrevivˆencia da pr´opria cidade que est´a em jogo, seus
+moradores acudiram em grande n´umero como volunt´arios para essa perigosa miss˜ao.
+Como ´e tradicional em miss˜oes perigosas, cada mergulhador recebeu no in´icio do mergulho uma
+pequena placa com um n´umero de identifica¸c˜ao. Ao terminar o mergulho, os volunt´arios devolviam a
+placa de identifica¸c˜ao, colocando-a em um reposit´orio.
+O dique voltou a ser seguro, mas aparentemente alguns volunt´arios n˜ao voltaram do mergulho.
+Vocˆe foi contratado para a penosa tarefa de, dadas as placas colocadas no reposit´orio, determinar
+quais volunt´arios perderam a vida salvando a cidade.
+Entrada
+A entrada ´e composta de duas linhas. A primeira linha cont´em dois inteiros N e R, indicando
+respectivamente o n´umero de volunt´arios que mergulhou e o n´umero de volunt´arios que retornou do
+mergulho. Os volunt´arios s˜ao identificados por n´umeros de 1 a N. A segunda linha da entrada cont´em
+R inteiros, indicando os volunt´arios que retornaram do mergulho (ao menos um volunt´ario retorna do
+mergulho).
+Sa´ida
+Seu programa deve produzir uma ´unica linha, contendo os identificadores dos volunt´arios que n˜ao
+retornaram do mergulho, na ordem crescente de suas identifica¸c˜oes. Deixe um espa¸co em branco
+ap´os cada identificador (note que isto significa que deve haver um espa¸co em branco tamb´em ap´os o
+´ultimo identificador). Se todos os volunt´arios retornaram do mergulho, imprima apenas o caractere
+‘*’ (asterisco).
+Restri¸c˜oes
+• 1 = R = N = 104
+Exemplos
+
+Entrada
+5 3
+3 1 5
+
+Sa´ida
+2 4
+
+
+Entrada
+6 6
+6 1 3 2 5 4
+
+Sa´ida
+*

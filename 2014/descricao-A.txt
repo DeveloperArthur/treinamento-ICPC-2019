@@ -1,0 +1,43 @@
+Problema A
+Volta
+Arquivo: volta.[c|cpp|java]
+No automobilismo ´e bastante comum que o l´ider de uma prova, em determinado momento, ultrapasse o ´ultimo colocado. O l´ider, neste momento, est´a uma volta `a frente do ´ultimo colocado, que se
+torna, assim, um retardat´ario. Neste problema, dados os tempos que o piloto mais r´apido e o piloto
+mais lento levam para completar uma volta, vocˆe deve determinar em que volta o ´ultimo colocado se
+tornar´a um retardat´ario, ou seja, ser´a ultrapassado pelo l´ider. Vocˆe deve considerar que, inicialmente,
+eles est˜ao lado a lado, na linha de partida do circuito, ambos no in´icio da volta de n´umero 1 (a primeira
+volta da corrida); e que uma nova volta se inicia sempre depois que o l´ider cruza a linha de partida.
+Entrada
+A ´unica linha da entrada cont´em dois n´umeros inteiros X e Y (1 = X < Y = 10000), os tempos, em segundos, que o piloto mais r´apido e o piloto mais lento levam para completar uma volta,
+respectivamente.
+Sa´ida
+Seu programa deve produzir uma ´unica linha, contendo um ´unico inteiro: a volta em que o piloto mais
+lento se tornar´a um retardat´ario.
+Exemplos
+
+Entrada
+1 10
+
+Sa´ida
+2
+
+
+Entrada
+4 8
+
+Sa´ida
+2
+
+
+Entrada
+5 7
+
+Sa´ida
+4
+
+
+Entrada
+6875 7109
+
+Sa´ida
+31

@@ -1,0 +1,34 @@
+Problema J
+Jogo de Estrat´egia
+Um jogo de estrat´egia, com J jogadores, ´e jogado em volta de uma mesa. O primeiro a jogar ´e o
+jogador 1, o segundo a jogar ´e o jogador 2 e assim por diante. Uma vez completada uma rodada,
+novamente o jogador 1 faz sua jogada e a ordem dos jogadores se repete novamente. A cada jogada,
+um jogador garante uma certa quantidade de Pontos de Vit´oria. A pontua¸c˜ao de cada jogador consiste
+na soma dos Pontos de Vit´oria de cada uma das suas jogadas.
+Dado o n´umero de jogadores, o n´umero de rodadas e uma lista representando os Pontos de Vit´oria
+na ordem em que foram obtidos, vocˆe deve determinar qual ´e o jogador vencedor. Caso mais de um
+jogador obtenha a pontua¸c˜ao m´axima, o jogador com pontua¸c˜ao m´axima que tiver jogado por ´ultimo
+´e o vencedor.
+Entrada
+A entrada consiste de duas linhas. A primeira linha cont´em dois inteiros J e R, o n´umero de
+jogadores e de rodadas respectivamente (1 = J, R = 500). A segunda linha cont´em J × R inteiros,
+correspondentes aos Pontos de Vit´oria em cada uma das jogadas feitas, na ordem em que aconteceram.
+Os Pontos de Vit´oria obtidos em cada jogada ser˜ao sempre inteiros entre 0 e 100, inclusive.
+Sa´ida
+Seu programa deve produzir uma ´unica linha, contendo o inteiro correspondente ao jogador vencedor.
+Exemplos
+
+Entrada
+3 3
+1 1 1 1 2 2 2 3 3
+
+Sa´ida
+3
+
+
+Entrada
+2 3
+0 0 1 0 2 0
+
+Sa´ida
+1

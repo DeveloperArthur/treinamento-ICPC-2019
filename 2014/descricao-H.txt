@@ -1,0 +1,48 @@
+Problema H
+Handebol
+Arquivo: handebol.[c|cpp|java]
+Frustrado e desanimado com os resultados de sua equipe de futebol, o Super Brasileiro Clube (SBC)
+resolveu investir na equipe de handebol. Para melhor avaliar os atletas, os t´ecnicos identificaram que
+seria ´util analisar a regularidade dos jogadores. Especificamente, eles est˜ao interessados em saber
+quantos jogadores fizeram gols em todas as partidas.
+Como o volume de dados ´e muito grande, eles gostariam de ter um programa de computador para
+realizar essa contagem.
+Entrada
+A primeira linha da entrada cont´em dois inteiros N e M (1 = N = 100 e 1 = M = 100), indicando
+respectivamente o n´umero de jogadores e o n´umero de partidas. Cada uma das N linhas seguintes
+descreve o desempenho de um jogador: a i-´esima linha cont´em M inteiros Xj (0 = Xj = 100, para
+1 = j = M), informando o n´umero de gols do i-´esimo jogador em cada partida.
+Sa´ida
+Seu programa deve produzir uma ´unica linha, contendo um ´unico inteiro, o n´umero de jogadores que
+fizeram gols em todas as partidas.
+Exemplos
+
+Entrada
+5 3
+0 0 0
+1 0 5
+0 0 0
+0 1 2
+1 1 0
+
+Sa´ida
+0
+
+
+Entrada
+12 5
+4 4 2 3 7
+0 0 0 1 0
+7 4 7 0 6
+1 2 3 3 2
+0 0 0 0 0
+4 0 9 10 10
+0 1 0 0 0
+1 2 0 2 3
+10 10 10 1 0
+0 3 3 3 4
+10 10 0 10 10
+1 1 2 0 9
+
+Sa´ida
+2

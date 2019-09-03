@@ -1,0 +1,36 @@
+Problema F
+Copa do Mundo
+Nome do arquivo fonte: copa.c, copa.cpp, copa.java ou copa.pas
+Uma Copa do Mundo de futebol de bot˜oes est´a sendo realizada com times de todo o mundo.
+A classifica¸c˜ao ´e baseada no n´umero de pontos ganhos pelos times, e a distribui¸c˜ao de pontos
+´e feita da forma usual. Ou seja, quando um time ganha um jogo, ele recebe 3 pontos; se o jogo
+termina empatado, ambos os times recebem 1 ponto; e o perdedor n˜ao recebe nenhum ponto.
+Dada a classifica¸c˜ao atual dos times e o n´umero de times participantes na Copa do Mundo,
+sua tarefa ´e de determinar quantos jogos terminaram empatados at´e o momento.
+Entrada
+A entrada cont´em v´arios casos de teste. A primeira linha de um caso de teste cont´em dois
+inteiros T e N, indicando respectivamente o n´umero de times participantes (2 = T = 200) e
+o n´umero de partidas jogadas (0 = N = 10000). Cada uma das T linhas seguintes cont´em o
+nome de um time (uma cadeia de m´aximo 10 letras e d´igitos), seguido de um espa¸co em branco,
+seguido do n´umero de pontos que o time obteve at´e o momento. O final da entrada ´e indicado
+por T = 0.
+A entrada deve ser lida da entrada padr˜ao.
+Sa´ida
+Para cada um dos casos de teste seu programa deve imprimir uma ´unica linha contendo um
+n´umero inteiro, representando a quantidade de jogos que terminaram empatados at´e o momento.
+A sa´ida deve ser escrita na sa´ida padr˜ao.
+
+Exemplo de entrada
+3 3
+Brasil 3
+Australia 3
+Croacia 3
+3 3
+Brasil 5
+Japao 1
+Australia 1
+0 0
+
+Sa´ida para o exemplo de entrada
+0
+2
