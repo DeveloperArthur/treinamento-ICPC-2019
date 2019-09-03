@@ -1,20 +1,21 @@
 Problema F
 Fase
-Em diversas competi¸c˜oes acadˆemicas, como a Olimp´iada Brasileira de Inform´atica (OBI), uma certa
+Em diversas competiÂ¸cËœoes acadË†emicas, como a OlimpÂ´iada Brasileira de InformÂ´atica (OBI), uma certa
 quantidade de competidores se classifica de uma fase para a fase seguinte, garantindo uma das vagas
-dispon´iveis. Entretanto, normalmente essa quantidade ´e vari´avel, pois dada uma certa quantidade
-m´inima de classificados, ´e frequente que haja empate na ´ultima vaga de classifica¸c˜ao. Neste caso, ´e
-comum que todos os competidores empatados na ´ultima coloca¸c˜ao se classifiquem.
-Sua tarefa ´e ajuda a calcular o n´umero de competidores classificados para a pr´oxima fase. Vocˆe
-receber´a uma lista de pontua¸c˜oes obtidas pelos competidores e o n´umero m´inimo de vagas para a fase
-seguinte e vocˆe deve decidir quantos competidores de fato v˜ao se classificar.
+disponÂ´iveis. Entretanto, normalmente essa quantidade Â´e variÂ´avel, pois dada uma certa quantidade
+mÂ´inima de classificados, Â´e frequente que haja empate na Â´ultima vaga de classificaÂ¸cËœao. Neste caso, Â´e
+comum que todos os competidores empatados na Â´ultima colocaÂ¸cËœao se classifiquem.
+Sua tarefa Â´e ajuda a calcular o nÂ´umero de competidores classificados para a prÂ´oxima fase. VocË†e
+receberÂ´a uma lista de pontuaÂ¸cËœoes obtidas pelos competidores e o nÂ´umero mÂ´inimo de vagas para a fase
+seguinte e vocË†e deve decidir quantos competidores de fato vËœao se classificar.
 Entrada
-A primeira linha da entrada cont´em um n´umero inteiro N, 1 = N = 1000, representando o n´umero
-de competidores. A segunda linha conter´a um inteiro K, 1 = K = N, indicando o n´umero m´inimo de
-competidores que devem se classificar para a pr´oxima fase. Em seguida, N linhas conter˜ao, cada uma
-um n´umero entre 1 e 1000, inclusive, correspondente `a pontua¸c˜ao de um competidor.
-Sa´ida
-Seu programa deve imprimir uma linha, contendo o n´umero de classificados para a pr´oxima fase.
+A primeira linha da entrada contÂ´em um nÂ´umero inteiro N, 1 = N = 1000, representando o nÂ´umero
+de competidores. A segunda linha conterÂ´a um inteiro K, 1 = K = N, indicando o nÂ´umero mÂ´inimo de
+competidores que devem se classificar para a prÂ´oxima fase. Em seguida, N linhas conterËœao, cada uma
+um nÂ´umero entre 1 e 1000, inclusive, correspondente `a pontuaÂ¸cËœao de um competidor.
+SaÂ´ida
+Seu programa deve imprimir uma linha, contendo o nÂ´umero de classificados para a prÂ´oxima fase.
+
 Exemplo de entrada 1
 10
 3
@@ -28,8 +29,11 @@ Exemplo de entrada 1
 3
 2
 1
-Exemplo de sa´ida 1
+
+Exemplo de saÂ´ida 1
 4
+
+
 Exemplo de entrada 2
 5
 2
@@ -38,5 +42,6 @@ Exemplo de entrada 2
 500
 500
 500
-Exemplo de sa´ida 2
+
+Exemplo de saÂ´ida 2
 5
