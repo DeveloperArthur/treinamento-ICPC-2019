@@ -3,10 +3,11 @@
 using namespace std;
 
 int main(){
-    int numeroParticipante, partidasJogadas, pontuacao, cont=0;
+    int numeroParticipante, partidasJogadas, pontuacao, cont;
     string times;
     
     while(true){
+        cont = 0;
         cin >> numeroParticipante;
         cin >> partidasJogadas;
         
