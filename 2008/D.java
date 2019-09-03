@@ -26,7 +26,7 @@ public class D {
 		     
 		    if (x1 == x2 && y1 == y2){ 
 		        result = 0; 
-		    }else if (vertical == true || horizontal == true || diagonal == true){ 
+		    }else if (vertical || horizontal || diagonal){ 
 		    	result = 1; 
 		    }
 			
