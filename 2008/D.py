@@ -16,7 +16,9 @@ while True:
     horizontal = (int(x1) != int(x2) and int(y1) == int(y2))
     diagonal = (math.fabs(int(x1)-int(x2)) == math.fabs(int(y1)-int(y2)))
     
-    if vertical or horizontal or diagonal:
+    if x1 == x2 and y1 == y2:
+        movimentos = 0
+    elif vertical or horizontal or diagonal:
         movimentos = 1
     
     print(movimentos)
