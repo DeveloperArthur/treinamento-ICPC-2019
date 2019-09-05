@@ -14,7 +14,7 @@ int main (){
 		letras = strlen(palavra);
 		n--;
 		for (int i = 0; i < n; ++i){
-                	scanf("%s", palavra);
+                 	scanf("%s", palavra);
             		x = strlen(palavra);
             		if (c >= (letras + x + 1)){
                 		letras += x + 1;
@@ -26,7 +26,7 @@ int main (){
 				letras = x;
 			}
 		}
-        printf("%d\n", paginas);
-    }
-    return 0;
+                printf("%d\n", paginas);
+        }
+        return 0;
 }
