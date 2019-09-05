@@ -14,12 +14,12 @@ int main (){
 		letras = strlen(palavra);
 		n--;
 		for (int i = 0; i < n; ++i){
-            scanf("%s", palavra);
-            x = strlen(palavra);
-            if (c >= (letras + x + 1)){
-                letras += x + 1;
-            }else{
-                ++linhas;
+                	scanf("%s", palavra);
+            		x = strlen(palavra);
+            		if (c >= (letras + x + 1)){
+                		letras += x + 1;
+            		}else{
+                		++linhas;
 				if (linhas > l){
 				    ++paginas, linhas = 1;
 				}
