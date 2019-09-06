@@ -1,3 +1,5 @@
+import math
+
 ultrapassagens = 0
 while True:
     n = int(input())
@@ -33,6 +35,6 @@ while True:
                     
                     
                     largada[k+1] = valor_K
-                    ultrapassagens += abs(l-k)
+                    ultrapassagens += math.fabs(l-k)
                     
-    print (ultrapassagens)                   
+    print (ultrapassagens)
