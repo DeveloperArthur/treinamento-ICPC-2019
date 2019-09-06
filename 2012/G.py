@@ -24,16 +24,21 @@ while True:
                     
                     o=l
                     while o!=k:
-                      if o ==  1:
-                        break
-
-                      aux = largada[o]
-                      largada[o] = largada[o-1]
-                      largada[o-1] = aux
-                  
-                      o=o-1
-                    
-                    
+                        if o ==  1:
+                            break
+                        
+                        #Este trecho de codigo deu erro 
+                        #largada[o] = largada[o-1]
+                        #IndexError: list index out of range
+                        #E eu nao consegui resolver
+                        
+                        aux = largada[o]
+                        largada[o] = largada[o-1]
+                        largada[o-1] = aux
+                        
+                        o=o-1
+                        
+                        
                     largada[k+1] = valor_K
                     ultrapassagens += math.fabs(l-k)
                     
