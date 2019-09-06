@@ -30,7 +30,7 @@ public class E {
 					if(mergulhadores[k] != numerosQueVoltaram[l]) {
 						cont++;
 						if(cont == numerosQueVoltaram.length) {
-							System.out.println(mergulhadores[k]);
+							System.out.print(mergulhadores[k]+" ");
 						}
 					}
 				}
