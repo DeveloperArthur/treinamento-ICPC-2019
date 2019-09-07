@@ -1,0 +1,38 @@
+2006 
+F = Eu que desenvolvi a solução
+
+2008
+D = Não consegui desenvolver a lógica e estudei a solução na internet
+
+2009
+B = Eu que desenvolvi a solução
+
+2011
+F = Não consegui desenvolver a lógica e desisti
+
+2012
+A = Eu que desenvolvi a solução
+G = Eu que desenvolvi a solução
+
+2013
+A = Eu que desenvolvi a solução
+E = Eu que desenvolvi a solução
+
+2014
+A = Não consegui desenvolver a lógica e estudei a solução na internet
+H = Eu que desenvolvi a solução
+
+2015
+C = Eu que desenvolvi a solução
+J = Eu que desenvolvi a solução
+
+2016
+A = 
+H = 
+
+2017
+F = 
+M = 
+
+2018
+D = 
