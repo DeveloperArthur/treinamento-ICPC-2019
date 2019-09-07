@@ -4,9 +4,9 @@
 using namespace std;
 
 int main(){
-	float x, y;
+	double x, y;
 	cin >> x >> y;
-	float voltas;
+	double voltas;
 	
 	x = abs(x-y);
 	voltas = ceil(y/x);
