@@ -1,16 +1,9 @@
-#include <iostream>
-using namespace std;
+n = int(input())
+cont = 0
 
-int main(){
-    int n, cont=0, a;
-    cin >> n;
-    
-    for(int i=0; i<n; i++){
-        cin >> a;
-        if(a != 1){
-            cont++;
-        }
-    }
-    
-    cout << cont << endl;
-}
+for i in range(0, n):
+    a = int(input())
+    if a != 1:
+        cont = cont+1
+
+print(cont)
