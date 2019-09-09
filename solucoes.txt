@@ -8,7 +8,7 @@ D = Não consegui desenvolver a lógica, estudei a solução na internet e enten
 B = Eu que desenvolvi a solução
 
 2011
-F = Não consegui desenvolver a lógica e desisti
+F = Não consegui desenvolver a lógica, estudei a solução na internet e não entendi
 
 2012
 A = Eu que desenvolvi a solução
