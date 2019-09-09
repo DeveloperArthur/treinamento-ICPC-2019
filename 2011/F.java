@@ -1,3 +1,4 @@
+/*tentativa falha de resolver o problema*/
 package a2011;
 
 import java.util.Scanner;
