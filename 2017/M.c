@@ -1,23 +1,24 @@
 #include <stdio.h>
 
 int main() {
-  int A1, A2, A3, total=0;
-  scanf("%i %i %i", &A1, &A2, &A3);
+    
+    int A1, A2, A3, total=0;
+    scanf("%i %i %i", &A1, &A2, &A3);
 
-  if(A1 > A2 && A1 > A3) 
-    total = (A2*2)+(A3*4);
-
-	else if (A2 > A1 && A2 > A3) 
-    total = (A1*2)+(A3*2);
+    if(A1 > A2 && A1 > A3) 
+        total = (A2*2)+(A3*4);
+    
+    else if (A2 > A1 && A2 > A3) 
+        total = (A1*2)+(A3*2);
 
 	else if (A3 > A1 && A3 > A2) 
-    total = (A1*4)+(A2*2);
+        total = (A1*4)+(A2*2);
 
 	else if(A1 == A2 || A3 == A2) 
-    total = (A1*2)+(A3*2);
+        total = (A1*2)+(A3*2);
 
 	else if(A1 == A3) 
-    total = (A2*2)+(A3*4);
+        total = (A2*2)+(A3*4);
 	
-  printf("%i", total);
+    printf("%i", total);
 }
