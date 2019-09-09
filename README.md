@@ -6,21 +6,26 @@
 
 2 peguei a solução da internet
 
+
 2006 
 
 F = Eu que desenvolvi a solução
+
 
 2008
 
 D = Não consegui desenvolver a lógica, estudei a solução na internet e entendi
 
+
 2009
 
 B = Eu que desenvolvi a solução
 
+
 2011
 
 F = Não consegui desenvolver a lógica, estudei a solução na internet e não entendi
+
 
 2012
 
@@ -28,11 +33,13 @@ A = Eu que desenvolvi a solução
 
 G = Eu que desenvolvi a solução
 
+
 2013
 
 A = Eu que desenvolvi a solução
 
 E = Eu que desenvolvi a solução
+
 
 2014
 
@@ -40,11 +47,13 @@ A = Não consegui desenvolver a lógica, estudei a solução na internet e enten
 
 H = Eu que desenvolvi a solução
 
+
 2015
 
 C = Eu que desenvolvi a solução
 
 J = Eu que desenvolvi a solução
+
 
 2016
 
@@ -52,11 +61,13 @@ A = Eu que desenvolvi a solução
 
 H = Eu que desenvolvi a solução
 
+
 2017
 
 F = Não consegui desenvolver a lógica, estudei a solução na internet e não entendi
 
 M = Eu que desenvolvi a solução
+
 
 2018
 
