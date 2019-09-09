@@ -35,4 +35,4 @@ F = Não consegui desenvolver a lógica, estudei a solução na internet e não 
 M = Eu que desenvolvi a solução
 
 2018
-D = 
+D = Eu que desenvolvi a solução
