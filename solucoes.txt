@@ -32,7 +32,7 @@ H = Eu que desenvolvi a solução
 
 2017
 F = Não consegui desenvolver a lógica, estudei a solução na internet e não entendi
-M = 
+M = Eu que desenvolvi a solução
 
 2018
 D = 
