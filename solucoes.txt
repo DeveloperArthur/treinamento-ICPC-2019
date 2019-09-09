@@ -1,37 +1,37 @@
 2006 
-F = Eu que desenvolvi a solu��o
+F = Eu que desenvolvi a solução
 
 2008
-D = N�o consegui desenvolver a l�gica e estudei a solu��o na internet
+D = Não consegui desenvolver a lógica, estudei a solução na internet e entendi
 
 2009
-B = Eu que desenvolvi a solu��o
+B = Eu que desenvolvi a solução
 
 2011
-F = N�o consegui desenvolver a l�gica e desisti
+F = Não consegui desenvolver a lógica e desisti
 
 2012
-A = Eu que desenvolvi a solu��o
-G = Eu que desenvolvi a solu��o
+A = Eu que desenvolvi a solução
+G = Eu que desenvolvi a solução
 
 2013
-A = Eu que desenvolvi a solu��o
-E = Eu que desenvolvi a solu��o
+A = Eu que desenvolvi a solução
+E = Eu que desenvolvi a solução
 
 2014
-A = N�o consegui desenvolver a l�gica e estudei a solu��o na internet
-H = Eu que desenvolvi a solu��o
+A = Não consegui desenvolver a lógica, estudei a solução na internet e entendi
+H = Eu que desenvolvi a solução
 
 2015
-C = Eu que desenvolvi a solu��o
-J = Eu que desenvolvi a solu��o
+C = Eu que desenvolvi a solução
+J = Eu que desenvolvi a solução
 
 2016
-A = 
-H = 
+A = Eu que desenvolvi a solução
+H = Eu que desenvolvi a solução
 
 2017
-F = 
+F = Não consegui desenvolver a lógica, estudei a solução na internet e não entendi
 M = 
 
 2018
